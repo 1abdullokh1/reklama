@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Roboto" ;
+    font-weight: 400;
+    src: url(../fonts/PFDinDisplayPro-Regular.woff);
+}
+@font-face {
+    font-family: "Roboto" ;
+    font-weight: 700;
+    src: url(../fonts/PFDinDisplayPro-Bold.woff);
+}
+a{
+    text-decoration: none
+}
+.muBreadcrumb {
+    margin-bottom: 24px;
+    .breadcrumb-item {
+      line-height: 14px;
+      a {
+        color: #a8a9aa;
+        font-size: 11px;
+        font-family: "PF DinDisplay Pro";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0.22px;
+      }
+      span {
+        color: #1c1d1e;
+        font-size: 11px;
+        font-family: "PF DinDisplay Pro";
+        font-style: normal;
+        font-weight: 400;
+
+        line-height: 14px;
+        letter-spacing: 0.22px;
+      }
+    }
+    .active {
+      &::before {
+        font-size: 11px;
+      }
+    }
+  }
+
+@import 'mixin' ;
+@import 'pages/header' ;
+@import 'pages/technologies';
+@import 'pages/free';
+@import 'pages/information';
+@import 'pages/aplocation';
+@import 'pages/maps';
+@import 'pages/footer';
+@import 'pages/our_technologies';
+@import 'pages/technology';
+@import 'pages/our_works';
+@import 'pages/contact';
+//components
+
+@import './components/carousel';
+@import './components/aplocationForm';

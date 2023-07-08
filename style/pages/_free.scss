@@ -1,0 +1,19 @@
+.free {
+  background-image: url("../images/free/background.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 57px 0;
+  .free_title {
+    @include borderedText;
+    color: white;
+  }
+  .free_img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+    .free{
+        padding: 42px 0;
+    }
+}

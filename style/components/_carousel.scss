@@ -1,0 +1,37 @@
+.myCarousel {
+    height: 100%;
+    .carousel-indicators {
+      margin: 0;
+      bottom: -40px;
+      button {
+        opacity: 1;
+        background-color: #e4e5e6;
+        &.active {
+          background-color: #dcb658;
+        }
+      }
+    }
+    .carousel-inner {
+      height: 100%;
+      .carousel-item {
+        height: 100%;
+        .image {
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width:576px) {
+    .myCarousel {
+      .carousel-indicators {
+        bottom: -25px;
+      }
+      .controler {
+        svg {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }

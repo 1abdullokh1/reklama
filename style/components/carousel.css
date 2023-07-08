@@ -1,0 +1,23 @@
+.myCarousel {
+  height: 100%;
+}
+.myCarousel .carousel-indicators {
+  margin: 0;
+  bottom: -40px;
+}
+.myCarousel .carousel-indicators button {
+  opacity: 1;
+  background-color: #e4e5e6;
+}
+.myCarousel .carousel-indicators button.active {
+  background-color: #dcb658;
+}
+.myCarousel .carousel-inner {
+  height: 100%;
+}
+.myCarousel .carousel-inner .carousel-item {
+  height: 100%;
+}
+.myCarousel .carousel-inner .carousel-item .image {
+  height: 100%;
+}/*# sourceMappingURL=carousel.css.map */

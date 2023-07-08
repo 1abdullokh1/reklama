@@ -1,0 +1,48 @@
+@mixin my_btn {
+  background: linear-gradient(180deg, #e0bd69 0%, #bb9b4b 100%);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  padding: 22px 40px 20px;
+  font-family: "PF DinDisplay Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #1c1d1e;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+  @media screen and (max-width:576px) {
+    font-size: 14px;
+    line-height: 100%;
+    display: block;
+    width: 100%;
+  }
+}
+
+@mixin borderedText {
+  position: relative;
+  padding-left: 20px;
+  font-family: "PF DinDisplay Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background-color: #dcb658;
+  }
+  @media screen and (max-width:576px) {
+    font-size: 18px;
+    line-height: 130%;
+  }
+}
