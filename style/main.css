@@ -1114,7 +1114,8 @@ footer .second_footer .container a {
 }
 @media screen and (max-width: 576px) {
   .technology_info .technology_container .technology_card .technology_content .technology_button {
-    padding: 15px 11px;
+    padding: 20px 11px;
+    font-size: 11px;
   }
 }
 
